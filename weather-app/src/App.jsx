@@ -72,7 +72,7 @@ function App() {
       {weatherData && !statusMessage && (
         <>
           <h1>City: {weatherData?.resolvedAddress}</h1>
-          <h1>Temperature: {weatherData.currentConditions?.temp} °F</h1>
+          <h1>Temperature: {weatherData.currentConditions?.temp} °C</h1>
           <h1>Humidity: {weatherData.currentConditions?.humidity} %</h1>
           <h1>Conditions: {weatherData.currentConditions?.conditions}</h1>
           <h1>Description: {weatherData?.description}</h1>
